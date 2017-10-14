@@ -1,0 +1,26 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
